@@ -71,8 +71,8 @@ gallery.insertAdjacentHTML("beforeend", markup);
 
 gallery.style.display = "flex";
 gallery.style.flexWrap = "wrap";
-gallery.style.gap = "10px";
+gallery.style.gap = "20px";
 gallery.querySelectorAll("img").forEach((img) => {
-  img.style.width = "200px";
+  img.style.width = "250px";
   img.style.height = "auto";
 });
